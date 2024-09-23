@@ -1,0 +1,871 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DoctorPracto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!-- for fontawesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <!-- for external css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="noscroll">
+    <!-- onpage loader effect   -->
+    <div class="loader"></div>
+
+  <!-- banner starts -->
+  <div class="find_doctor">
+    <div class="container">
+      <div class="banner_content">
+        <h1>Your home for health</h1>
+        <p>Find and Book</p>
+      </div>
+      <div class="input-group text-end">
+        <input type="text" aria-label="location" class="form-control" placeholder="location">
+        <input type="text" aria-label="search" class="form-control"
+          placeholder="search doctors, clinic, hospitals, etc.">
+      </div>
+      <div class="popular_search">
+        <ul>
+          <li>Popular searches:</li>
+          <li><a href="">Dermatologist</a></li>
+          <li><a href="">Pediatrician</a></li>
+          <li><a href="">Gynecologist/Obstetrician</a></li>
+          <li><a href="">Others <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+
+        </ul>
+      </div>
+
+    </div>
+    <div class="banner_icon">
+      <nav class="navbar navbar-expand-lg navbar-expand-md">
+        <div class="container">
+          <ul class="navbar-nav mx-auto text-center ">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="video_consult.html">
+                <i class="fa fa-comments" aria-hidden="true"></i> <br>
+                <span>Consult with a doctor</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i> <br>
+                <span>Order Medicines</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">
+                <i class="fa-solid fa-book-medical"></i><br>
+                <span>View medical records</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">
+                <i class="fa fa-flask" aria-hidden="true">
+                  <div class="new">New</div>
+                </i> <br>
+                <span>New Book test </span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">
+                <i class="fa fa-book" aria-hidden="true"></i> <br>
+                <span>Read articles </span></a>
+            </li>
+            <li class="nav-item no_bar">
+              <a class="nav-link" aria-current="page" href="#">
+                <i class="fa fa-briefcase" aria-hidden="true"></i> <br>
+                <span>For healthcare providers </span></a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- safety starts -->
+  <div class="safety">
+    <div class="container">
+      <div class="row row-cols-lg-2">
+        <div class="safety_content">
+          <h2>Safety of your data is our</h2>
+          <h2 class="f-w">top priority.</h2>
+          <ul>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span>Multi-level security checks</span>
+            </li>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span>Multiple data backups</span>
+            </li>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span>Stringent data privacy policies</span>
+            </li>
+          </ul>
+
+          <a class="read_more" href=""> Read more</a>
+        </div>
+        <div class="safety_right">
+          <img
+            src="https://www.practostatic.com/web-assets/home/assets/images/security_1.4f45ac92aba979dac915f864df632d90.png"
+            alt="">
+        </div>
+      </div>
+      <div class="safety_icon ">
+        <div class="row row-cols-lg-4 row-cols-md-4 mx-auto">
+          <div class="safety_icon_list text-center">
+            <img
+              src="https://www.practostatic.com/web-assets/home/assets/images/security_2.654a7085bfa74c726f26b64edaafd9a5.png"
+              alt="">
+            <div class="safety__info">
+              <p class="mb-0">256-bit</p>
+              <p class="">encryption</p>
+            </div>
+          </div>
+          <div class="safety_icon_list text-center">
+            <img
+              src="https://www.practostatic.com/web-assets/home/assets/images/security_3.a73921ca6e980ed186518d7cb0ce64bf.png"
+              alt="">
+            <div class="safety__info">
+              <p class="mb-0">ISO 27001 </p>
+              <p class="">certified</p>
+            </div>
+          </div>
+          <div class="safety_icon_list text-center">
+            <img
+              src="https://www.practostatic.com/web-assets/home/assets/images/security_4.216e25d35038f0e7f6d8a514727fa67a.png"
+              alt="">
+            <div class="safety__info">
+              <p class="mb-0">HIPAA</p>
+              <p class="">compliant data centers </p>
+            </div>
+          </div>
+          <div class="safety_icon_list text-center">
+            <img
+              src="https://www.practostatic.com/web-assets/home/assets/images/security_5.cf6e04c57178071a67c219b43066ffcf.png"
+              alt="">
+            <div class="safety__info">
+              <p class="mb-0">DSCI</p>
+              <p class="">member</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- appointment starts -->
+  <div class="appointment">
+    <div class="container">
+      <div class="row row-cols-lg-2">
+        <div class="appointment_left">
+          <h2>Instant appointment with <br>
+            doctors. <span class="f-w"> Guaranteed.</span>
+          </h2>
+          <ul>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span><span class="f-w">100,000</span> Verified doctors</span>
+            </li>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span><span class="f-w">3M+ </span>Patient recommendations </span>
+            </li>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span><span class="f-w">25M </span> Patients/year</span>
+            </li>
+          </ul>
+          <a class="right_doctor" href=""> Find me the right doctor</a>
+
+          <!-- Swiper -->
+          <div class="swiper review ">
+            <div class="swiper-wrapper ">
+              <div class="swiper-slide">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <p class="mt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium corporis quam placeat, quae qui
+                  veritatis.
+                </p>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <img src="..." alt="...">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    Person 1
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <p class="mt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium corporis quam placeat, quae qui
+                  veritatis.
+                </p>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <img src="..." alt="...">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    Person 2
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <p class="mt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium corporis quam placeat, quae qui
+                  veritatis.
+                </p>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <img src="..." alt="...">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    Person 3
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+          </div>
+        </div>
+
+
+        <div class="appointment_right">
+          <img
+            src="https://www.practostatic.com/web-assets/home/assets/images/security_1.4f45ac92aba979dac915f864df632d90.png"
+            alt="">
+        </div>
+
+      </div>
+    </div>
+    <img class="w-100 mt-5" src="img/companies.png" alt="">
+
+  </div>
+
+  <!-- consult with doctor starts -->
+  <div class="consult">
+    <div class="container">
+      <div class="row row-cols-lg-2">
+        <div class="consult_left">
+          <img src="https://www.practostatic.com/web-assets/home/assets/images/security_1.4f45ac92aba979dac915f864df632d90.png" alt="">
+        </div>
+        <div class="consult_right">
+          <h2>Skip the waiting room. </h2>
+          <h2 class="f-w">Consult with a doctor</h2>
+          <ul>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span>Fees starting at <span class="f-w"> ₹99</span> </span>
+            </li>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span> Verified doctors respond in <span class="f-w"> 5 minutes </span> </span>
+            </li>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span><span class="f-w">100%</span> Private and confidential </span>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center">
+            <div class="flex-shrink-0">
+              <a class="Consult_now" href=""> Consult now</a>
+            </div>
+            <div class="flex-grow-1 mx-4">
+              <div class="circle mx-2 "></div>
+              <span class="f-w mx-2"> 66963</span> doctors online
+            </div>
+          </div>
+
+          <!-- swiper starts -->
+          <div class="swiper review">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <p class="mt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium corporis quam placeat, quae qui
+                  veritatis.
+                </p>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <img src="..." alt="...">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    Person 1
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <p class="mt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium corporis quam placeat, quae qui
+                  veritatis.
+                </p>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <img src="..." alt="...">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    Person 2
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <p class="mt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium corporis quam placeat, quae qui
+                  veritatis.
+                </p>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <img src="..." alt="...">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    Person 3
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- top atricles -->
+  <div class="article">
+    <div class="container">
+      <h2>Read top articles from health experts</h2>
+      <!-- swiper starts -->
+      <div class="swiper article_swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="article_card">
+              <img src="https://www.practostatic.com/fit/12c850918cf12fb29e51211fc6d5c3175132bf48" alt="...">
+              <div class="article_card_body">
+                <div class="card_body_content">
+                  <h5>16 Lifestyle Tips to Get Rid of Belly Fat</h5>
+                  <span>Dr.Sachin Goel,</span> <br>
+                  <span>487 Likes . 11146Views</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="article_card">
+              <img src="https://www.practostatic.com/fit/12c850918cf12fb29e51211fc6d5c3175132bf48" alt="...">
+              <div class="article_card_body">
+                <div class="card_body_content">
+                  <h5>16 Lifestyle Tips to Get Rid of Belly Fat</h5>
+                  <span>Dr.Sachin Goel,</span> <br>
+                  <span>487 Likes . 11146Views</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="article_card">
+              <img src="https://www.practostatic.com/fit/12c850918cf12fb29e51211fc6d5c3175132bf48" alt="...">
+              <div class="article_card_body">
+                <div class="card_body_content">
+                  <h5>16 Lifestyle Tips to Get Rid of Belly Fat</h5>
+                  <span>Dr.Sachin Goel,</span> <br>
+                  <span>487 Likes . 11146Views</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="article_card">
+              <img src="https://www.practostatic.com/fit/12c850918cf12fb29e51211fc6d5c3175132bf48" alt="...">
+              <div class="article_card_body">
+                <div class="card_body_content">
+                  <h5>16 Lifestyle Tips to Get Rid of Belly Fat</h5>
+                  <span>Dr.Sachin Goel,</span> <br>
+                  <span>487 Likes . 11146Views</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="article_card">
+              <img src="https://www.practostatic.com/fit/12c850918cf12fb29e51211fc6d5c3175132bf48" alt="...">
+              <div class="article_card_body">
+                <div class="card_body_content">
+                  <h5>16 Lifestyle Tips to Get Rid of Belly Fat</h5>
+                  <span>Dr.Sachin Goel,</span> <br>
+                  <span>487 Likes . 11146Views</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+       
+      </div>
+      <div class="article_button text-center mt-5">
+        <a class="more_article" href=""> More articles</a>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- get medicine starts -->
+  <div class="medicine">
+    <div class="container">
+      <div class="row row-cols-lg-2">
+        <div class="medicines_left">
+          <h2>Get all your medicines. </h2>
+          <h2 class="f-w">Everytime. On time. </h2>
+          <ul>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span>Guaranteed availability</span>
+            </li>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span> Over <span class="f-w">130,000+</span> genuine medicines </span>
+            </li>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span> Home delivery in <span class="f-w">24hrs</span> </span>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center">
+            <div class="flex-shrink-0">
+              <a class="order_medicines" href=""> Order Medicines</a>
+            </div>
+            <div class="flex-grow-1 mx-4">
+              <div class="circle mx-2 "></div>
+            <p class="mx-2">  Last order delivered <span class="f-w"> 40 mins </span> ago in Baguiati, Kolkata</p>
+            </div>
+          </div>
+
+          <!-- swiper starts -->
+          <div class="swiper review">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <p class="mt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium corporis quam placeat, quae qui
+                  veritatis.
+                </p>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <img src="..." alt="...">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    Person 1
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <p class="mt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium corporis quam placeat, quae qui
+                  veritatis.
+                </p>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <img src="..." alt="...">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    Person 2
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <p class="mt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium corporis quam placeat, quae qui
+                  veritatis.
+                </p>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <img src="..." alt="...">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    Person 3
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+          </div>
+        </div>
+        <div class="medicines_right">
+          <img
+            src="https://www.practostatic.com/web-assets/home/assets/images/security_1.4f45ac92aba979dac915f864df632d90.png"
+            alt="">
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- medical records -->
+  <div class="records">
+    <div class="container">
+      <div class="row row-cols-lg-2">
+        <div class="records_left">
+          <img
+            src="https://www.practostatic.com/web-assets/home/assets/images/security_1.4f45ac92aba979dac915f864df632d90.png"
+            alt="">
+        </div>
+        <div class="records_right">
+          <h2>All your medical records </h2>
+          <h2 class="f-w">In one secure app. </h2>
+          <ul>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span>256-bit end to end encryption </span>
+            </li>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span> Records are accessible only by you </span>
+            </li>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span>Access your records across <span class="f-w">8000+</span> centers </span>
+            </li>
+          </ul>
+          <a class="find_out" href=""> Find out more</a>
+
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Trust us starts -->
+  <div class="Trust">
+    <div class="container">
+      <div class="row row-cols-lg-2">
+        <div class="Trust_left">
+          <h2>Leading Healthcare Providers.</h2>
+          <h2 class="f-w">Trust us for Business </h2>
+          <ul>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span>Get seen by <span class="f-w"> 25M+</span> patients on Practo.com </span>
+            </li>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span>The most advanced software for clinics and hospitals</span>
+            </li>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span> State of the art business analytics for enterprises </span>
+            </li>
+          </ul>
+          <a class="Learn_more" href=""> Learn more</a>
+
+          <!-- swiper starts -->
+          <div class="swiper review">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <p class="mt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium corporis quam placeat, quae qui
+                  veritatis.
+                </p>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <img src="..." alt="...">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    Person 1
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <p class="mt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium corporis quam placeat, quae qui
+                  veritatis.
+                </p>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <img src="..." alt="...">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    Person 2
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <p class="mt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium corporis quam placeat, quae qui
+                  veritatis.
+                </p>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <img src="..." alt="...">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    Person 3
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+          </div>
+        </div>
+        <div class="Trust_right">
+          <img
+            src="https://www.practostatic.com/web-assets/home/assets/images/security_1.4f45ac92aba979dac915f864df632d90.png"
+            alt="">
+        </div>
+
+
+      </div>
+    </div>
+    <img class="w-100 mt-5" src="img/companies2.png" alt="">
+  </div>
+
+  <!-- footer starts -->
+  <div class="footer">
+    <div class="container">
+      <div class="row row-cols-lg-6 row-cols-sm-2">
+        <div class="one">
+          <h5>Practo </h5>
+          <ul>
+            <li> <a href=""> About</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Press</a></li>
+            <li><a href="">Contact Us</a></li>
+
+          </ul>
+        </div>
+        <div class="two">
+          <h5>For patients</h5>
+          <ul>
+            <li> <a href=""> Ask free health questions </a></li>
+            <li><a href="">Search for doctors</a></li>
+            <li><a href="">Search for clinics</a></li>
+            <li><a href="">Search for hospitals</a></li>
+            <li><a href="">Book Diagnostic Tests</a></li>
+            <li><a href="">Book Full Body Checkups</a></li>
+            <li><a href="">Read health articles</a></li>
+            <li><a href="">Consult a doctor </a></li>
+            <li><a href="">Order medicines</a></li>
+            <li><a href="">Read about medicines</a></li>
+            <li><a href="">Practo drive</a></li>
+            <li><a href="">Health app </a></li>
+            <li><a href="">Practo Plus</a></li>
+          </ul>
+        </div>
+        <div class="three">
+          <h5>For doctors </h5>
+          <ul>
+            <li> <a href=""> Practo Consult</a></li>
+            <li><a href="">Practo Health Feed</a></li>
+            <li><a href="">Practo Profile</a></li>
+          </ul>
+
+          <h5>For clinics</h5>
+          <ul>
+            <li> <a href=""> Practo Prime</a></li>
+            <li><a href="">Ray by Practo</a></li>
+            <li><a href="">Practo Reach </a></li>
+            <li><a href="">Ray Tab</a></li>
+            <li><a href="">Practo Pro</a></li>
+          </ul>
+        </div>
+        <div class="four">
+          <h5>For hospitals</h5>
+          <ul>
+            <li> <a href=""> Insta by Practo</a></li>
+            <li><a href="">Qikwell by Practo </a></li>
+            <li><a href="">Practo Profile</a></li>
+            <li><a href="">Practo Reach</a></li>
+            <li><a href="">Practo Drive</a></li>
+
+          </ul>
+        </div>
+        <div class="five">
+          <h5>More </h5>
+          <ul>
+            <li> <a href=""> Help</a></li>
+            <li><a href="">Developers</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms & Conditions</a></li>
+            <li><a href=""> PCS T&C</a></li>
+            <li><a href=""> Healthcare Directory</a></li>
+            <li><a href=""> Practo Health Wiki</a></li>
+          </ul>
+        </div>
+        <div class="six">
+          <h5>Social </h5>
+          <ul>
+            <li> <a href=""> Facebook</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">LinkedIn</a></li>
+            <li><a href="">Youtube</a></li>
+            <li><a href="">Github</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- banner_sticky starts -->
+  <div class="sticky_banner" style="display: none;">
+    <div class="row row-cols-2">
+      <div class="left_content">
+        <div class="left_logo">
+          <img width="80px" src="https://www.practostatic.com/scripts/images/pcs_logo_sm_white_250122.png">
+        </div>
+        <div class="header">
+          <span class="header_1">Book appointment with an expert surgeon </span>
+        </div>
+
+        <div class="sub_header">
+          Piles, Hernia &amp; 50+ surgeries
+        </div>
+
+        <div class="cta">
+          KNOW MORE
+        </div>
+      </div>
+      <div class="right_content">
+        <img class="" src="https://www.practostatic.com/practo-care/doctor_home.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+    <!-- jquery starts -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".review", {
+      spaceBetween: 30,
+      loop:true,
+      speed:1000,
+      centeredSlides: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+<!-- responsive slider for article -->
+  <script>
+    var swiper = new Swiper(".article_swiper", {
+      spaceBetween: 30,
+      loop:true,
+      speed:1000,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+        },
+        480: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        1200: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+
+      }
+
+    });
+  </script>
+
+  <!-- onload funciton -->
+<script src="js/loader.js"></script>
+<script>
+
+</script>
+</body>
+
+</html>
